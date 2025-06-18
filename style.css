@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background-image: url('SL-011719-17920-65.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(rgb(255, 175, 255) , rgb(183, 183, 255));
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    
+}
+.logo img{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px rgb(255, 140, 255) solid;
+    border-radius: 15px;
+
+
+}
+
+.content h3{
+    
+    font-size: 20px;
+    color: rgb(154, 154, 255);
+    text-align: center;
+
+
+}
+.main{
+    background: linear-gradient(rgb(175, 193, 255) , #ce65ff);
+    height: 50vh;
+    margin-top: 50px;
+    display: block ;
+    flex-direction: row;
+    border: pink 2px solid ;
+    border-radius: 15px ;
+    opacity: 0.7;
+    
+}
+
+#Copy{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    height : 30px ;
+    
+    align-items: center;
+    width: 60px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#Copy:hover{
+    background-color: rgb(2, 2, 52);
+    color :aliceblue
+
+}
+
+#pass{
+    display: flex ;
+    justify-self: center;
+    align-self: center;
+    margin-top: 100px;
+    height: 30px;
+    width: 30vh;
+    position: relative;
+    border-radius: 7px;
+}
+#length{
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+    width: 15vh;
+    height: 35px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;    
+    background-color: rgb(224, 255, 178);
+    border: none;
+    
+}
+
+#Genrate{
+    display: flex;
+    justify-self: center;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: rgb(76, 168, 249);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#Genrate:hover{
+    background-color: rgb(0, 0, 67);
+    color: lightskyblue;
+
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px palegoldenrod solid ;
+    flex-direction: column;
+    margin-top: 25px;
+    height: 70px;
+    gap: 10px;
+    border-radius: 25px;
+}
+.side input{
+    margin-right: 10px;
+
+}
+.side h3{
+    color: green;
+}
+
+
+@media (min-width: 1280px) and (max-width: 1920px){
+    .main{
+        width: 50vh;
+        margin-left: 580px;    
+    }
+    #Copy{
+        margin-left: 305px;
+    }
+    .side{
+        width: 50vh;
+        margin-left: 580px;
+        font-size: 20px;
+    }
+
+    .content{
+        width: 50vh;
+        margin-left: 580px;
+        border-radius: 10px;
+        height: 60px;
+        
+    }
+     
+}
