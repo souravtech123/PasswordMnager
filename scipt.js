@@ -3,6 +3,7 @@ let input = document.getElementById('pass');
 let copy = document.getElementById('Copy')
 let NumberUse = document.getElementById('Number')
 let ChracterUse = document.getElementById("Character")
+let len = document.getElementById('len')
 
 
 
@@ -36,12 +37,13 @@ btn.addEventListener('click' , function(){
     
    }
    input.value = password;
-
+   
 
   copy.addEventListener('click' , function(){     
 
   navigator.clipboard.writeText(input.value)
-
+  
+ 
  })
 
    

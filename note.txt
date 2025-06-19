@@ -29,8 +29,13 @@ now adding character and number optional
 
 
 now copying the password
-1) When the someone press on the copy button it copied 
+1) When the someone press on the copy button it copie
 
+range to length 
+how to conect the range into lenghth
+
+first make length 
+just print the length 
 
 
 
